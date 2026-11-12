@@ -462,20 +462,26 @@
       return;
     }
 
-    // Real Web3Forms submission
+    // Real Web3Forms submission (Official JSON payload)
     const btnText = submitBtn.querySelector('.btn__text');
     submitBtn.disabled = true;
     if (btnText) btnText.textContent = 'Sending…';
 
     const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
 
     fetch('https://api.web3forms.com/submit', {
       method: 'POST',
-      body: formData
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: json
     })
       .then(async (response) => {
-        const json = await response.json();
-        if (response.status === 200 && json.success) {
+        const resJson = await response.json();
+        if (response.status === 200) {
           form.reset();
           if (successEl) {
             successEl.hidden = false;
@@ -484,10 +490,11 @@
             successEl.focus();
           }
         } else {
-          showError('contactMessage', json.message || 'Something went wrong. Please try again.');
+          showError('contactMessage', resJson.message || 'Something went wrong. Please try again.');
         }
       })
       .catch((error) => {
+        console.error('Web3Forms submission error:', error);
         showError('contactMessage', 'Network error. Please try again later.');
       })
       .finally(() => {
