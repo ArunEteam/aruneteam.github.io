@@ -594,6 +594,7 @@ body.cursor-hover .cursor-follower {
   z-index: 999;
   transform: translateX(100%);
   transition: transform var(--dur-slow) var(--ease);
+  height: 100dvh;
 }
 
 .mobile-menu.open {
@@ -609,7 +610,7 @@ body.cursor-hover .cursor-follower {
 
 .mobile-menu__link {
   font-family: var(--ff-display);
-  font-size: var(--fs-4xl);
+  font-size: var(--fs-3xl);
   font-weight: 700;
   color: var(--clr-text);
   transition: color var(--dur);
@@ -854,7 +855,7 @@ body.cursor-hover .cursor-follower {
 }
 
 .hero__title-typewriter {
-  font-size: clamp(var(--fs-4xl), 6vw, var(--fs-4xl));
+  font-size: clamp(var(--fs-2xl), 6vw, var(--fs-4xl));
   display: inline-block;
   vertical-align: top;
   white-space: nowrap;
@@ -2169,6 +2170,10 @@ body.cursor-hover .cursor-follower {
 }
 
 @media (max-width: 768px) {
+  .hero__title-wrap {
+    width: fit-content;
+    margin: 0 auto;
+  }
 
   .nav,
   .header__cta {
