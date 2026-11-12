@@ -462,20 +462,38 @@
       return;
     }
 
-    // Simulate send — replace with real endpoint / EmailJS / Formspree
+    // Real Web3Forms submission
     const btnText = submitBtn.querySelector('.btn__text');
     submitBtn.disabled = true;
     if (btnText) btnText.textContent = 'Sending…';
 
-    setTimeout(() => {
-      submitBtn.disabled = false;
-      if (btnText) btnText.textContent = 'Send Message';
-      form.reset();
-      if (successEl) {
-        successEl.hidden = false;
-        successEl.focus();
-      }
-    }, 1500);
+    const formData = new FormData(form);
+
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    })
+      .then(async (response) => {
+        const json = await response.json();
+        if (response.status === 200 && json.success) {
+          form.reset();
+          if (successEl) {
+            successEl.hidden = false;
+            successEl.style.display = 'block';
+            successEl.textContent = "✅ Thank you! Your message has been sent. I'll be in touch shortly.";
+            successEl.focus();
+          }
+        } else {
+          showError('contactMessage', json.message || 'Something went wrong. Please try again.');
+        }
+      })
+      .catch((error) => {
+        showError('contactMessage', 'Network error. Please try again later.');
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+        if (btnText) btnText.textContent = 'Send Message';
+      });
   });
 })();
 
