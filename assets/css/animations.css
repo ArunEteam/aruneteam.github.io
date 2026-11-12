@@ -1,0 +1,159 @@
+/* ============================================================
+   ARUN PORTFOLIO — ANIMATION STYLESHEET
+   Theme   : Bright Warm Orange — Glossy / Glass Morphism
+   Standard: WCAG AAA, prefers-reduced-motion respected
+   Comments: English only
+   ============================================================ */
+
+/* ---- Scroll-reveal base state ---- */
+.reveal {
+  opacity:    0;
+  transform:  translateY(40px);
+  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+}
+
+.reveal.reveal--right {
+  transform: translateX(40px);
+}
+
+.reveal.in-view {
+  opacity:   1;
+  transform: translate(0, 0);
+}
+
+/* Manual delay modifiers */
+.reveal[data-delay="1"] { transition-delay: 0.1s; }
+.reveal[data-delay="2"] { transition-delay: 0.2s; }
+.reveal[data-delay="3"] { transition-delay: 0.3s; }
+.reveal[data-delay="4"] { transition-delay: 0.4s; }
+.reveal[data-delay="5"] { transition-delay: 0.5s; }
+
+/* Auto-stagger for skills grid children */
+.skills__grid .skill-card:nth-child(1) { transition-delay: 0.05s; }
+.skills__grid .skill-card:nth-child(2) { transition-delay: 0.10s; }
+.skills__grid .skill-card:nth-child(3) { transition-delay: 0.15s; }
+.skills__grid .skill-card:nth-child(4) { transition-delay: 0.20s; }
+.skills__grid .skill-card:nth-child(5) { transition-delay: 0.25s; }
+.skills__grid .skill-card:nth-child(6) { transition-delay: 0.30s; }
+.skills__grid .skill-card:nth-child(7) { transition-delay: 0.35s; }
+.skills__grid .skill-card:nth-child(8) { transition-delay: 0.40s; }
+
+/* Auto-stagger for portfolio grid children */
+.portfolio-grid .project-card:nth-child(1) { transition-delay: 0.05s; }
+.portfolio-grid .project-card:nth-child(2) { transition-delay: 0.15s; }
+.portfolio-grid .project-card:nth-child(3) { transition-delay: 0.25s; }
+.portfolio-grid .project-card:nth-child(4) { transition-delay: 0.05s; }
+.portfolio-grid .project-card:nth-child(5) { transition-delay: 0.15s; }
+.portfolio-grid .project-card:nth-child(6) { transition-delay: 0.25s; }
+
+/* ---- Shared keyframes ---- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.85); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ---- Hero section entrance sequence ---- */
+.hero__eyebrow     { animation: fadeInDown 0.7s 0.8s  var(--ease) both; }
+.hero__heading     { animation: fadeInUp   0.7s 1.0s  var(--ease) both; }
+.hero__desc        { animation: fadeInUp   0.7s 1.2s  var(--ease) both; }
+.hero__actions     { animation: fadeInUp   0.7s 1.4s  var(--ease) both; }
+.hero__stats       { animation: fadeInUp   0.7s 1.6s  var(--ease) both; }
+.hero__avatar-ring { animation: scaleIn    0.9s 1.1s  var(--ease) both; }
+
+/* ---- Gradient text utility — orange-amber sweep ---- */
+.gradient-text {
+  background:               var(--gradient-brand);
+  background-size:          200% auto;
+  -webkit-background-clip:  text;
+  background-clip:          text;
+  -webkit-text-fill-color:  transparent;
+  animation:                gradientShift 4s linear infinite;
+}
+
+@keyframes gradientShift {
+  to { background-position: 200% center; }
+}
+
+/* ---- Glossy button ripple on click ---- */
+.btn-ripple {
+  position:      absolute;
+  border-radius: 50%;
+  background:    rgba(255, 255, 255, 0.40);
+  transform:     scale(0);
+  animation:     ripple 0.6s linear;
+  pointer-events: none;
+}
+
+@keyframes ripple {
+  to { transform: scale(4); opacity: 0; }
+}
+
+/* ---- Hero canvas particles ---- */
+#heroCanvas {
+  pointer-events: none;
+}
+
+/* ---- Page transition overlay ---- */
+.page-transition {
+  position:       fixed;
+  inset:          0;
+  background:     var(--clr-bg);
+  z-index:        9999;
+  pointer-events: none;
+  opacity:        0;
+  transition:     opacity 0.4s var(--ease);
+}
+.page-transition.active { opacity: 1; }
+
+/* ---- Shimmer loading effect for glass cards ---- */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.0)  25%,
+    rgba(255,255,255,0.5)  50%,
+    rgba(255,255,255,0.0)  75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s infinite;
+}
+
+/* ---- Pulsing orange glow — used on live/active badges ---- */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(232, 82, 10, 0.30); }
+  50%      { box-shadow: 0 0 18px rgba(232, 82, 10, 0.60); }
+}
+
+.glow-pulse { animation: glowPulse 2.5s ease-in-out infinite; }
+
+/* ---- Section will-change hint for compositing ---- */
+.section { will-change: opacity, transform; }

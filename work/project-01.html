@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Case Study: Project Title One – WordPress eCommerce build by Arun. Pixel-perfect conversion, WooCommerce, API integration." />
+  <title>Project Title One — Case Study | Arun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/animations.css" />
+  <link rel="stylesheet" href="../assets/css/case-study.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-follower" id="cursorFollower" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header" id="header" role="banner">
+    <div class="container header__inner">
+      <a href="../index.html" class="logo" aria-label="Arun – Back to portfolio home">
+        <span class="logo__text">Arun</span>
+        <span class="logo__dot" aria-hidden="true">.</span>
+      </a>
+      <nav class="nav" role="navigation" aria-label="Primary navigation">
+        <ul class="nav__list" role="list">
+          <li><a href="../index.html#about" class="nav__link">About</a></li>
+          <li><a href="../index.html#skills" class="nav__link">Skills</a></li>
+          <li><a href="../index.html#work" class="nav__link">Work</a></li>
+          <li><a href="../index.html#experience" class="nav__link">Experience</a></li>
+          <li><a href="../index.html#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="../index.html#contact" class="btn btn--primary btn--sm header__cta">Hire Me</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <nav><ul class="mobile-menu__list" role="list">
+        <li><a href="../index.html#about" class="mobile-menu__link">About</a></li>
+        <li><a href="../index.html#skills" class="mobile-menu__link">Skills</a></li>
+        <li><a href="../index.html#work" class="mobile-menu__link">Work</a></li>
+        <li><a href="../index.html#contact" class="mobile-menu__link">Contact</a></li>
+      </ul></nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ====== CASE HERO ====== -->
+    <section class="case-hero" aria-labelledby="caseTitle">
+      <div class="container">
+        <!-- Breadcrumb -->
+        <nav class="case-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          <a href="../index.html#work">Work</a>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          <span aria-current="page">Project Title One</span>
+        </nav>
+
+        <div class="case-hero__tags" aria-label="Project tags">
+          <span class="project-card__tag">WordPress</span>
+          <span class="project-card__tag">WooCommerce</span>
+          <span class="project-card__tag">Pixel Perfect</span>
+          <span class="project-card__tag">API Integration</span>
+        </div>
+
+        <h1 class="case-hero__title" id="caseTitle">Project Title One</h1>
+        <p class="case-hero__summary">
+          A full-scale WooCommerce build converted pixel-perfectly from a Figma design,
+          with Brevo email integration, Google Analytics 4, and a custom checkout flow
+          that increased conversions by 40%.
+        </p>
+
+        <dl class="case-hero__meta">
+          <div class="case-meta-item">
+            <dt class="case-meta-item__label">Client</dt>
+            <dd class="case-meta-item__value">Client Name / Company</dd>
+          </div>
+          <div class="case-meta-item">
+            <dt class="case-meta-item__label">Platform</dt>
+            <dd class="case-meta-item__value">WordPress + WooCommerce</dd>
+          </div>
+          <div class="case-meta-item">
+            <dt class="case-meta-item__label">Timeline</dt>
+            <dd class="case-meta-item__value">6 Weeks</dd>
+          </div>
+          <div class="case-meta-item">
+            <dt class="case-meta-item__label">Role</dt>
+            <dd class="case-meta-item__value">Lead Developer</dd>
+          </div>
+          <div class="case-meta-item">
+            <dt class="case-meta-item__label">Live Site</dt>
+            <dd class="case-meta-item__value">
+              <a href="https://example.com" target="_blank" rel="noopener noreferrer" style="color:var(--clr-accent)">
+                example.com ↗
+              </a>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ====== GALLERY ====== -->
+    <section class="case-gallery" aria-label="Project screenshots">
+      <div class="container">
+        <div class="case-gallery__grid">
+          <div class="case-gallery__img case-gallery__img--main">
+            <img src="../assets/images/projects/p01-thumb-1.jpg" alt="Homepage – full desktop view of Project One" width="800" height="600" loading="lazy" />
+          </div>
+          <div class="case-gallery__img case-gallery__img--sm">
+            <img src="../assets/images/projects/p01-thumb-2.jpg" alt="Product listing page of Project One" width="400" height="266" loading="lazy" />
+          </div>
+          <div class="case-gallery__img case-gallery__img--sm">
+            <img src="../assets/images/projects/p01-thumb-3.jpg" alt="Mobile responsive view of Project One" width="400" height="266" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== BODY ====== -->
+    <article class="case-body section">
+      <div class="container">
+        <div class="case-body__inner">
+          <!-- Main content -->
+          <div class="case-body__content">
+
+            <section class="case-body__section reveal" aria-labelledby="challengeHeading">
+              <h2 id="challengeHeading">The Challenge</h2>
+              <p>
+                The client came to us with a Figma design for a premium e-commerce store but an
+                outdated WordPress site that was slow, inaccessible, and haemorrhaging sales
+                from a poor checkout experience. They needed a ground-up rebuild delivered in under 6 weeks.
+              </p>
+              <p>
+                Key pain points included:
+              </p>
+              <ul>
+                <li>No mobile optimisation — 70% of traffic was mobile</li>
+                <li>Page load times of 6+ seconds on mobile</li>
+                <li>Cart abandonment at 75% due to a clunky checkout</li>
+                <li>Zero accessibility compliance (failed WCAG AA checks)</li>
+                <li>No email marketing integration</li>
+              </ul>
+            </section>
+
+            <section class="case-body__section reveal" aria-labelledby="approachHeading">
+              <h2 id="approachHeading">My Approach</h2>
+              <p>
+                I performed a pixel-perfect conversion of the Figma designs into a custom WordPress
+                theme built from scratch using semantic HTML5, SCSS, and vanilla JavaScript.
+                WooCommerce was configured with a streamlined, 2-step checkout.
+              </p>
+              <p>
+                Performance was central: every image was compressed with <strong>WebP</strong> conversion,
+                critical CSS was inlined, fonts were loaded with <code>font-display: swap</code>,
+                and a full <strong>Core Web Vitals</strong> audit was completed before handover.
+              </p>
+              <ul>
+                <li>Built a custom WordPress child theme — zero page-builder overhead</li>
+                <li>Integrated <strong>Brevo (Sendinblue)</strong> via REST API for email automation</li>
+                <li>Implemented <strong>Google Analytics 4</strong> with enhanced eCommerce tracking</li>
+                <li>Configured <strong>Google Maps</strong> for store locator functionality</li>
+                <li>Applied <strong>WCAG 2.1 AA</strong> across all pages — keyboard nav, ARIA, contrast ratios</li>
+                <li>Set up <strong>XML sitemap</strong>, meta tags, and schema markup for SEO</li>
+              </ul>
+            </section>
+
+            <section class="case-body__section reveal" aria-labelledby="resultsHeading">
+              <h2 id="resultsHeading">Results</h2>
+              <p>
+                Within 60 days of launch, the client recorded measurable improvements across
+                every KPI they had identified:
+              </p>
+              <div class="case-results" role="list" aria-label="Project results metrics">
+                <div class="case-result-card" role="listitem">
+                  <span class="case-result-card__num">+40%</span>
+                  <span class="case-result-card__label">Conversion Rate</span>
+                </div>
+                <div class="case-result-card" role="listitem">
+                  <span class="case-result-card__num">98</span>
+                  <span class="case-result-card__label">Lighthouse Score</span>
+                </div>
+                <div class="case-result-card" role="listitem">
+                  <span class="case-result-card__num">-65%</span>
+                  <span class="case-result-card__label">Page Load Time</span>
+                </div>
+              </div>
+            </section>
+
+            <section class="case-body__section reveal" aria-labelledby="lessonsHeading">
+              <h2 id="lessonsHeading">Key Learnings</h2>
+              <p>
+                This project reinforced the business value of <strong>performance-first development</strong>
+                and <strong>accessibility as a feature, not an afterthought</strong>. The Brevo API
+                integration also deepened my expertise in transactional email flows triggered
+                from WooCommerce order hooks.
+              </p>
+            </section>
+
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="case-body__sidebar" aria-label="Project details">
+            <div class="case-sidebar-card">
+              <h3>Tech Stack</h3>
+              <ul>
+                <li>WordPress 6.x</li>
+                <li>WooCommerce</li>
+                <li>HTML5 / SCSS</li>
+                <li>Vanilla JavaScript</li>
+                <li>Brevo REST API</li>
+                <li>Google Analytics 4</li>
+                <li>Google Maps API</li>
+                <li>Figma (design source)</li>
+              </ul>
+            </div>
+            <div class="case-sidebar-card">
+              <h3>Services Delivered</h3>
+              <ul>
+                <li>Pixel-perfect HTML/CSS build</li>
+                <li>Custom WP theme development</li>
+                <li>WooCommerce configuration</li>
+                <li>API integration</li>
+                <li>Performance optimisation</li>
+                <li>WCAG accessibility audit</li>
+                <li>On-page SEO setup</li>
+                <li>GA4 implementation</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <!-- ====== CASE NAV ====== -->
+    <nav class="case-nav" aria-label="Case study navigation">
+      <div class="container case-nav__inner">
+        <a href="project-06.html" class="case-nav__link" aria-label="Previous case study: Project Title Six">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          <span>
+            <span class="case-nav__direction">Previous</span>
+            <span class="case-nav__title">Project Title Six</span>
+          </span>
+        </a>
+        <a href="../index.html#work" class="btn btn--ghost btn--sm">All Work</a>
+        <a href="project-02.html" class="case-nav__link" aria-label="Next case study: Project Title Two">
+          <span>
+            <span class="case-nav__direction">Next</span>
+            <span class="case-nav__title">Project Title Two</span>
+          </span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </nav>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="footerYear"></span> Arun. All rights reserved.</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer__nav" role="list">
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#work">Work</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,499 @@
+[
+  {
+    "id": "project-01",
+    "title": "Atlantis Head Wear",
+    "shortDesc": "Wholesale cap selling e-commerce website.",
+    "category": "wordpress",
+    "tags": [
+      "WordPress",
+      "WooCommerce"
+    ],
+    "thumbnails": [
+      {
+        "src": "assets/images/projects/Atlantis/atlantis.jpg",
+        "alt": "Atlantis Slide 01"
+      },
+      {
+        "src": "assets/images/projects/Atlantis/atlantis-02.jpg",
+        "alt": "Atlantis Slide 02"
+      },
+      {
+        "src": "assets/images/projects/Atlantis/atlantis-03.jpg",
+        "alt": "Atlantis Slide 03"
+      }
+    ],
+    "stats": [
+      {
+        "value": "63%",
+        "label": "Lighthouse"
+      },
+      {
+        "value": "94%",
+        "label": "Accessibility"
+      }
+    ],
+    "liveUrl": "https://atlantisheadwear.me/",
+    "caseStudy": {
+      "client": "Gallop",
+      "platform": "WordPress + WooCommerce",
+      "timeline": "1 Month",
+      "role": "Lead Developer",
+      "techStack": [
+        "WordPress 7+",
+        "WooCommerce",
+        "Customized Elemetor",
+        "Custom Plugins",
+        "HTML5 / CSS3",
+        "jQuery / JavaScript",
+        "Brevo REST API",
+        "Google Analytics 4"
+      ],
+      "services": [
+        "Pixel-perfect HTML/CSS build",
+        "Custom WP theme",
+        "WooCommerce setup",
+        "API integration",
+        "Performance optimisation",
+        "On-page SEO",
+        "GA4 implementation"
+      ],
+      "gallery": [
+        {
+          "src": "assets/images/projects/Atlantis/Atlantis-home.jpg",
+          "alt": "Full homepage screenshot"
+        },
+        {
+          "src": "assets/images/projects/Atlantis/atlantis-details.jpg",
+          "alt": "Product detail page"
+        },
+        {
+          "src": "assets/images/projects/Atlantis/atlantis-checkout.jpg",
+          "alt": "checkout flow"
+        }
+      ],
+      "challenge": "The client required a highly customized checkout flow tailored specifically to their wholesale and retail cap-selling e-commerce business model. Implementing these unique, non-standard functionalities within WordPress/WooCommerce demanded advanced customization to match precise business logic without affecting the platform's performance and user experience.",
+      "approach": "Successfully designed and implemented custom functionalities from scratch, seamlessly integrating the complex checkout workflow into the WordPress ecosystem. The solution delivered a smooth, efficient, and user-friendly purchasing experience while fully meeting the client's specific operational requirements.",
+      "results": [
+        {
+          "value": "94%",
+          "label": "Accessibility"
+        },
+        {
+          "value": "63",
+          "label": "Lighthouse Score"
+        },
+        {
+          "value": "100%",
+          "label": "SEO"
+        }
+      ],
+      "learnings": "This project reinforced the business value of performance-first development and accessibility as a feature, not an afterthought. The Brevo API integration deepened expertise in transactional email flows triggered from WooCommerce order hooks."
+    }
+  },
+  {
+    "id": "project-02",
+    "title": "Sundooq",
+    "shortDesc": "Shopify eCommerce store with custom theme and third-party app integrations.",
+    "category": "shopify",
+    "tags": [
+      "Shopify",
+      "eCommerce"
+    ],
+    "thumbnails": [
+      {
+        "src": "assets/images/projects/Sundooq/slide-01.jpg",
+        "alt": "Sundooq Slide 01"
+      },
+      {
+        "src": "assets/images/projects/Sundooq/slide-02.jpg",
+        "alt": "Sundooq Slide 02"
+      },
+      {
+        "src": "assets/images/projects/Sundooq/slide-03.jpg",
+        "alt": "Sundooq Slide 03"
+      }
+    ],
+    "stats": [
+      {
+        "value": "85%",
+        "label": "Performance"
+      },
+      {
+        "value": "93%",
+        "label": "Accessibility"
+      }
+    ],
+    "liveUrl": "https://sundooq.com",
+    "caseStudy": {
+      "client": "Gallop",
+      "platform": "Shopify",
+      "timeline": "4 Weeks",
+      "role": "Shopify Developer",
+      "techStack": [
+        "Shopify Liquid",
+        "Custom Theme",
+        "JavaScript",
+        "CSS3",
+        "Brevo API / AWS",
+        "Google Analytics 4"
+      ],
+      "services": [
+        "Custom Shopify theme",
+        "Product & collection setup",
+        "App integrations",
+        "Email marketing setup",
+        "Mobile optimisation"
+      ],
+      "gallery": [
+        {
+          "src": "assets/images/projects/Sundooq/Home.jpg",
+          "alt": "Homepage hero"
+        },
+        {
+          "src": "assets/images/projects/Sundooq/Details.jpg",
+          "alt": "Collection page"
+        },
+        {
+          "src": "assets/images/projects/Sundooq/Checkout.jpg",
+          "alt": "Product detail"
+        }
+      ],
+      "challenge": "The client required a specialized e-commerce workflow on Shopify where users could select custom products and add personalized engraving options, along with integrated greeting card selections directly from the Product Detail Page (PDP).",
+      "approach": "Leveraged Shopify's advanced customization capabilities and custom function to build a smooth, interactive engraving and greeting card selection flow right on the PDP without hurting site speed.",
+      "results": [
+        {
+          "value": "85%",
+          "label": "Performance"
+        },
+        {
+          "value": "93%",
+          "label": "Accessibility"
+        },
+        {
+          "value": "92%",
+          "label": "SEO"
+        }
+      ],
+      "learnings": "Integrating complex real-time product customization directly on the product page significantly boosts conversion rates and user satisfaction in gift and specialty e-commerce stores."
+    }
+  },
+  {
+    "id": "project-03",
+    "title": "RightShift",
+    "shortDesc": "Webflow CMS site with animations, Full custom theme.",
+    "category": "webflow",
+    "tags": [
+      "Webflow",
+      "Animation",
+      "GSAP"
+    ],
+    "thumbnails": [
+      {
+        "src": "assets/images/projects/RightShift/slide-01.jpg",
+        "alt": "Homepage"
+      }
+    ],
+    "stats": [
+      {
+        "value": "98%",
+        "label": "Performance"
+      },
+      {
+        "value": "90%",
+        "label": "Accessibility"
+      }
+    ],
+    "liveUrl": "https://rightshift.co",
+    "caseStudy": {
+      "client": "RightShift",
+      "platform": "Webflow",
+      "timeline": "3 Weeks",
+      "role": "Webflow Developer",
+      "techStack": [
+        "Webflow",
+        "CMS Collections",
+        "Mega-menu",
+        "Custom CSS",
+        "GSAP Animations"
+      ],
+      "services": [
+        "Webflow design & build",
+        "CMS structure",
+        "Animation setup",
+        "SEO configuration"
+      ],
+      "gallery": [
+        {
+          "src": "assets/images/projects/RightShift/Home.jpg",
+          "alt": "Homepage"
+        },
+        {
+          "src": "assets/images/projects/RightShift/Details.jpg",
+          "alt": "Services section"
+        },
+        {
+          "src": "assets/images/projects/RightShift/Checkout.jpg",
+          "alt": "About section"
+        }
+      ],
+      "challenge": "The project required developing an advanced, highly interactive mega menu with intricate structural layouts that demanded precise front-end execution to ensure smooth navigation across all devices.",
+      "approach": "Meticulously engineered the complex mega menu structure to be responsive, intuitive, and seamlessly integrated into the user interface.",
+      "results": [
+        {
+          "value": "98%",
+          "label": "Performance"
+        },
+        {
+          "value": "90%",
+          "label": "Accessibility"
+        },
+        {
+          "value": "+3x",
+          "label": "Enquiries"
+        }
+      ],
+      "learnings": "Successfully handling complex navigational structures like sophisticated mega menus enhances architectural clarity in modern web development."
+    }
+  },
+  {
+    "id": "project-04",
+    "title": "The Big Yes",
+    "shortDesc": "Wordress single page website. Full custom theme with Gutenberg blocks.",
+    "category": [
+      "wordpress",
+      "html"
+    ],
+    "tags": [
+      "Wordpress",
+      "HTML5",
+      "Calendly"
+    ],
+    "thumbnails": [
+      {
+        "src": "assets/images/projects/thebigyes/slide-01.jpg",
+        "alt": "Homepage"
+      }
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "SEO"
+      },
+      {
+        "value": "90",
+        "label": "Lighthouse"
+      }
+    ],
+    "liveUrl": "https://thebigyes.co/",
+    "caseStudy": {
+      "client": "Inaya Shaikh",
+      "platform": "wordpress",
+      "timeline": "2 Weeks",
+      "role": "Wordpress Developer",
+      "techStack": [
+        "Wordpress",
+        "Custom Blocks",
+        "Calendly API",
+        "Tailwindcss"
+      ],
+      "services": [
+        "Wordpress site build",
+        "Custom block development",
+        "Google SEO",
+        "Calendly booking",
+        "Mobile optimisation",
+        "Custom Email Setup"
+      ],
+      "gallery": [
+        {
+          "src": "assets/images/projects/thebigyes/Home.jpg",
+          "alt": "Homepage"
+        },
+        {
+          "src": "assets/images/projects/thebigyes/Checkout.jpg",
+          "alt": "Middle section"
+        },
+        {
+          "src": "assets/images/projects/thebigyes/Details.jpg",
+          "alt": "Video section"
+        }
+      ],
+      "challenge": "The client required a seamless automated workflow where submitting a qualification form instantly triggers a confirmation email to the user. Additionally, this email needed to contain a dynamically generated, secure URL that directly allows the user to schedule and sync an appointment straight into their calendar.",
+      "approach": "Configured robust backend automation rules and form triggers to ensure instant, error-free email dispatch upon successful form submission.",
+      "results": [
+        {
+          "value": "3x",
+          "label": "Lead Generation"
+        },
+        {
+          "value": "100%",
+          "label": "SEO"
+        },
+        {
+          "value": "90%",
+          "label": "Lighthouse"
+        }
+      ],
+      "learnings": "Bridging form submissions with calendar scheduling creates a professional, automated touchpoint that elevates the overall client experience."
+    }
+  },
+  {
+    "id": "project-05",
+    "title": "Wegallop",
+    "shortDesc": "Pixel-perfect Figma to HTML/SCSS/JS conversion with CSS animations and  WCAG 2.0.",
+    "category": [
+      "html",
+      "wordpress"
+    ],
+    "tags": [
+      "HTML5",
+      "SASS",
+      "JavaScript"
+    ],
+    "thumbnails": [
+      {
+        "src": "assets/images/projects/wegallop/slide-01.jpg",
+        "alt": "Homepage"
+      }
+    ],
+    "stats": [
+      {
+        "value": "90",
+        "label": "Performance"
+      },
+      {
+        "value": "2.0",
+        "label": "WCAG"
+      }
+    ],
+    "liveUrl": "https://wegallop.com/",
+    "caseStudy": {
+      "client": "Wegallop",
+      "platform": "Wordpress/ HTML5 / CSS3 / JavaScript",
+      "timeline": "2 Weeks",
+      "role": "Front-End Developer",
+      "techStack": [
+        "HTML5",
+        "SCSS/SASS",
+        "Vanilla JavaScript",
+        "CSS Animations",
+        "Custom Blocks"
+      ],
+      "services": [
+        "Figma to code conversion",
+        "Custom CSS animations",
+        "WCAG 2.0 audit",
+        "Performance optimisation",
+        "Cross-browser testing"
+      ],
+      "gallery": [
+        {
+          "src": "assets/images/projects/wegallop/Home.jpg",
+          "alt": "Homepage hero"
+        },
+        {
+          "src": "assets/images/projects/wegallop/Details.jpg",
+          "alt": "Features section"
+        },
+        {
+          "src": "assets/images/projects/wegallop/Checkout.jpg",
+          "alt": "Home section"
+        }
+      ],
+      "challenge": "The client required an exceptionally high standard of precision, demanding a completely pixel-perfect implementation of the website design to match their exact brand guidelines and UI specifications without any layout deviations.",
+      "approach": "Utilized advanced styling and layout techniques, approaching the build with strict attention to detail to ensure every element, spacing, and typography aligned flawlessly with the design files.",
+      "results": [
+        {
+          "value": "99%",
+          "label": "Pixel Perfection"
+        },
+        {
+          "value": "2.0",
+          "label": "WCAG Compliance"
+        },
+        {
+          "value": "100",
+          "label": "Lighthouse Accessibility"
+        }
+      ],
+      "learnings": "Maintaining strict design fidelity (pixel-perfection) significantly elevates the professional look and feel of a brand's digital presence."
+    }
+  },
+  {
+    "id": "project-06",
+    "title": "Memorial Planning",
+    "shortDesc": "Multi network WordPress site with custom theme setup.",
+    "category": "wordpress",
+    "tags": [
+      "WordPress",
+      "Multi network",
+      "Google Maps"
+    ],
+    "thumbnails": [
+      {
+        "src": "assets/images/projects/memorialplanning/slide-01.jpg",
+        "alt": "Homepage"
+      }
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "SEO"
+      },
+      {
+        "value": "90",
+        "label": "Lighthouse"
+      }
+    ],
+    "liveUrl": "https://memorialplanning.com",
+    "caseStudy": {
+      "client": "Zoondia",
+      "platform": "WordPress",
+      "timeline": "2 Months",
+      "role": "Lead Developer & PM",
+      "techStack": [
+        "WordPress",
+        "Google Map API",
+        "PHP",
+        "JavaScript"
+      ],
+      "services": [
+        "WordPress development",
+        "Custom email integration",
+        "Google Map API",
+        "Performance optimisation"
+      ],
+      "gallery": [
+        {
+          "src": "assets/images/projects/memorialplanning/Home.jpg",
+          "alt": "Homepage hero"
+        },
+        {
+          "src": "assets/images/projects/memorialplanning/Details.jpg",
+          "alt": "Features section"
+        },
+        {
+          "src": "assets/images/projects/memorialplanning/Checkout.jpg",
+          "alt": "Home section"
+        }
+      ],
+      "challenge": "The client required the development and management of over 400+ interconnected websites functioning as a large-scale multi-network platform.",
+      "approach": "Methodically planned and structured the multi-network framework to handle hundreds of sites efficiently while maintaining consistency and performance.",
+      "results": [
+        {
+          "value": "100%",
+          "label": "SEO"
+        },
+        {
+          "value": "90",
+          "label": "Lighthouse Score"
+        },
+        {
+          "value": "100%",
+          "label": "Data Sync Accuracy"
+        }
+      ],
+      "learnings": "Handling hundreds of connected sites requires meticulous planning, modular architecture, and streamlined maintenance protocols."
+    }
+  }
+]
