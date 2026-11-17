@@ -577,3 +577,23 @@
 
   sections.forEach(s => observer.observe(s));
 })();
+
+/* ===============================================================
+   17. ABOUT VIDEO PLAY/PAUSE OBSERVER (battery & performance)
+   =============================================================== */
+(function initAboutVideo() {
+  const video = document.querySelector('.about__video');
+  if (!video) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        video.play().catch(() => {});
+      } else {
+        video.pause();
+      }
+    });
+  }, { threshold: 0.1 });
+
+  observer.observe(video);
+})();
