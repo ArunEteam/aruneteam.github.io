@@ -1,13 +1,153 @@
 [
   {
     "id": 1,
+    "name": "Atlantis Head Wear",
+    "domain": "Wholesale & E-Commerce",
+    "platform": "WordPress",
+    "category": [
+      "wordpress",
+      "ecom",
+      "api"
+    ],
+    "country": "UAE",
+    "location": "Dubai",
+    "tech": [
+      "WordPress",
+      "WooCommerce",
+      "Brevo REST API",
+      "PHP",
+      "Custom Plugins",
+      "GA4"
+    ],
+    "description": "Wholesale cap selling e-commerce website with custom Elementor widgets, advanced non-standard checkout flow, and transactional Brevo REST API email automation.",
+    "url": "https://atlantisheadwear.me/"
+  },
+  {
+    "id": 2,
+    "name": "Sundooq",
+    "domain": "Gifts & Corporate E-Commerce",
+    "platform": "Shopify",
+    "category": [
+      "shopify",
+      "ecom",
+      "api"
+    ],
+    "country": "UAE",
+    "location": "Middle East",
+    "tech": [
+      "Shopify Liquid",
+      "Custom Theme",
+      "JavaScript",
+      "CSS3",
+      "Brevo API",
+      "GA4"
+    ],
+    "description": "Shopify eCommerce store with custom theme, third-party app integrations, product and collection setup, and email marketing workflows.",
+    "url": "https://sundooq.com"
+  },
+  {
+    "id": 3,
+    "name": "RightShift",
+    "domain": "Digital Product Studio",
+    "platform": "Webflow",
+    "category": [
+      "webflow"
+    ],
+    "country": "Global",
+    "location": "Remote",
+    "tech": [
+      "Webflow",
+      "CMS Collections",
+      "GSAP Animations",
+      "Mega-menu",
+      "Custom CSS"
+    ],
+    "description": "Webflow CMS website with custom GSAP animations, dynamic mega-menu, responsive CMS collections, and on-page SEO.",
+    "url": "https://rightshift.co"
+  },
+  {
+    "id": 4,
+    "name": "The Big Yes",
+    "domain": "Creative Agency & Consulting",
+    "platform": "WordPress",
+    "category": [
+      "wordpress",
+      "html",
+      "api"
+    ],
+    "country": "Global",
+    "location": "UK & Remote",
+    "tech": [
+      "WordPress",
+      "Custom Gutenberg Blocks",
+      "Calendly API",
+      "Tailwind CSS",
+      "HTML5"
+    ],
+    "description": "WordPress single page website featuring full custom theme with Gutenberg blocks, Calendly appointment booking API, and Tailwind CSS.",
+    "url": "https://thebigyes.co/"
+  },
+  {
+    "id": 5,
+    "name": "Wegallop",
+    "domain": "Digital Agency & Technology",
+    "platform": "WordPress",
+    "category": [
+      "wordpress",
+      "html"
+    ],
+    "country": "Global",
+    "location": "Remote",
+    "tech": [
+      "HTML5",
+      "SCSS/SASS",
+      "Vanilla JavaScript",
+      "CSS Animations",
+      "WCAG 2.0"
+    ],
+    "description": "Pixel-perfect Figma to HTML/SCSS/JS conversion with custom CSS animations, WCAG 2.0 accessibility compliance, and performance tuning.",
+    "url": "https://wegallop.com/"
+  },
+  {
+    "id": 6,
+    "name": "Memorial Planning",
+    "domain": "Memorial & Funeral Services",
+    "platform": "WordPress",
+    "category": [
+      "wordpress",
+      "api"
+    ],
+    "country": "USA",
+    "location": "Florida / Nationwide",
+    "tech": [
+      "WordPress",
+      "Multi-Network",
+      "Google Maps API",
+      "PHP",
+      "JavaScript"
+    ],
+    "description": "Multi-network enterprise WordPress website with custom theme setup, location-based Google Maps API integration, and custom email workflows.",
+    "url": "https://memorialplanning.com"
+  },
+  {
+    "id": 1,
     "name": "The Ramble Biltmore Forest",
     "domain": "Community Development",
     "platform": "WordPress",
-    "category": ["wordpress", "api"],
+    "category": [
+      "wordpress",
+      "api"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Salesforce API", "cURL"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Salesforce API",
+      "cURL"
+    ],
     "description": "Custom developed theme and Salesforce lead API integration after form submission.",
     "url": "https://rambledev.wpengine.com/"
   },
@@ -16,10 +156,20 @@
     "name": "O2B Kids",
     "domain": "Education",
     "platform": "WordPress",
-    "category": ["wordpress", "api"],
+    "category": [
+      "wordpress",
+      "api"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Google Maps API", "Ajax"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Google Maps API",
+      "Ajax"
+    ],
     "description": "Custom developed theme, intellikidsystems API integration, Google Maps API for nearest school location, and custom plugin for class schedules.",
     "url": "https://o2bkids.com/"
   },
@@ -28,10 +178,18 @@
     "name": "Veterans Alliance",
     "domain": "Aircraft & Aerospace",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "California",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "WP Engine"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "WP Engine"
+    ],
     "description": "Custom developed corporate theme integrated with high-performance WP Engine server environment.",
     "url": "https://www.veterans-alliance.com/"
   },
@@ -40,10 +198,18 @@
     "name": "Thumbprint",
     "domain": "Printing & Brand Logistics",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "360 3D"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "360 3D"
+    ],
     "description": "Custom developed theme with interactive animations and embedded 360-degree 3D product integration.",
     "url": "https://thumbprint.com/"
   },
@@ -52,10 +218,22 @@
     "name": "Copies America",
     "domain": "Printing & E-Commerce",
     "platform": "Laravel",
-    "category": ["laravel", "ecom", "api"],
+    "category": [
+      "laravel",
+      "ecom",
+      "api"
+    ],
     "country": "USA",
     "location": "New York",
-    "tech": ["PHP", "Laravel", "HTML5", "CSS3", "jQuery", "USPS API", "PayPal"],
+    "tech": [
+      "PHP",
+      "Laravel",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "USPS API",
+      "PayPal"
+    ],
     "description": "USPS shipping API integration, PayPal and credit card gateway. Custom developed CMS tailored for printing items.",
     "url": "https://copiesamerica.com/"
   },
@@ -64,10 +242,17 @@
     "name": "Interaction Project",
     "domain": "Geographical Research",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Qatar",
     "location": "Doha",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed responsive theme for international geographical and cultural research.",
     "url": "https://interactionproject.org/"
   },
@@ -76,10 +261,19 @@
     "name": "Florida Friends",
     "domain": "Travel & Apparel",
     "platform": "Shopify",
-    "category": ["shopify", "ecom"],
+    "category": [
+      "shopify",
+      "ecom"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["Liquid", "HTML5", "CSS3", "jQuery", "Shopify"],
+    "tech": [
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Shopify"
+    ],
     "description": "Customized Shopify Liquid theme with branded interactive animations and optimized checkout.",
     "url": "https://vibe.thumbprint.com/"
   },
@@ -88,10 +282,18 @@
     "name": "Pedal Pushers LLC",
     "domain": "Informative & Apparel",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "Texas",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Brand Identity"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Brand Identity"
+    ],
     "description": "Custom developed responsive WordPress theme with proprietary logo and brand assets.",
     "url": "https://pedalpushers.co/"
   },
@@ -100,10 +302,18 @@
     "name": "Marthakal",
     "domain": "E-Commerce & Events",
     "platform": "Duda",
-    "category": ["duda", "ecom"],
+    "category": [
+      "duda",
+      "ecom"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Customized Duda theme supporting events scheduling and e-commerce for indigenous organization.",
     "url": "https://www.marthakal.org/"
   },
@@ -112,10 +322,17 @@
     "name": "Venly",
     "domain": "Fintech & Technology",
     "platform": "Duda",
-    "category": ["duda"],
+    "category": [
+      "duda"
+    ],
     "country": "International",
     "location": "Global",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Customized modern theme with clean interactive UI layouts and corporate brand integration.",
     "url": "https://venlyapp.com/"
   },
@@ -124,10 +341,18 @@
     "name": "Central Coast Smoke Alarms",
     "domain": "Safety & Compliance",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Australia",
     "location": "NSW",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Elementor"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Elementor"
+    ],
     "description": "Customized WordPress theme integrated with Elementor for fast property compliance bookings.",
     "url": "https://centralcoastsmokealarms.com.au/"
   },
@@ -136,10 +361,17 @@
     "name": "Be-Sure",
     "domain": "Safety & Inspection",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed mobile-first theme for certified residential safety inspections.",
     "url": "https://be-sure.au/"
   },
@@ -148,10 +380,17 @@
     "name": "Kooindah Waters Community Association",
     "domain": "Community Development",
     "platform": "Duda",
-    "category": ["duda"],
+    "category": [
+      "duda"
+    ],
     "country": "Australia",
     "location": "NSW",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Customized Duda residential portal with member notices and facility guides.",
     "url": "https://www.kooindahwaters.com.au/"
   },
@@ -160,10 +399,20 @@
     "name": "The Barcoo Independent",
     "domain": "News & Publishing",
     "platform": "WordPress",
-    "category": ["wordpress", "ecom", "api"],
+    "category": [
+      "wordpress",
+      "ecom",
+      "api"
+    ],
     "country": "Australia",
     "location": "Queensland",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "eWay Gateway"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "eWay Gateway"
+    ],
     "description": "Custom developed theme and paid subscription membership functionality with eWay payment gateway.",
     "url": "https://www.thebarcooindependent.com.au/"
   },
@@ -172,10 +421,17 @@
     "name": "Ace Fabricator",
     "domain": "Industrial & Manufacturing",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Canada",
     "location": "Canada",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Customized industrial engineering theme showcasing structural steel fabrication capabilities.",
     "url": "https://acefabricator.com/"
   },
@@ -184,10 +440,20 @@
     "name": "Buy Safe Build Smart",
     "domain": "Safety & E-Commerce",
     "platform": "WordPress",
-    "category": ["wordpress", "ecom", "api"],
+    "category": [
+      "wordpress",
+      "ecom",
+      "api"
+    ],
     "country": "Canada",
     "location": "Canada",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Stripe API"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Stripe API"
+    ],
     "description": "Custom developed theme and e-commerce integrated with Stripe payment gateway.",
     "url": "https://buysafebuildsmart.com/"
   },
@@ -196,10 +462,20 @@
     "name": "Yarrawarra Aboriginal Cultural Centre",
     "domain": "Entertainment & Culture",
     "platform": "WordPress",
-    "category": ["wordpress", "api"],
+    "category": [
+      "wordpress",
+      "api"
+    ],
     "country": "Australia",
     "location": "NSW",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "PayPal API", "Elementor"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "PayPal API",
+      "Elementor"
+    ],
     "description": "Customized theme with Elementor and automated PayPal donation processing.",
     "url": "https://yarrawarra.com.au/"
   },
@@ -208,10 +484,17 @@
     "name": "Triveni Packaging",
     "domain": "Industrial Machinery",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "UAE",
     "location": "Sharjah",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed corporate theme with specialized packaging machinery post listings.",
     "url": "https://www.trivenipackaging.com/"
   },
@@ -220,10 +503,20 @@
     "name": "Alhasnaa Signature",
     "domain": "Fashion & E-Commerce",
     "platform": "WordPress",
-    "category": ["wordpress", "ecom", "api"],
+    "category": [
+      "wordpress",
+      "ecom",
+      "api"
+    ],
     "country": "Qatar",
     "location": "Doha",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "MyFatoorah Gateway"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "MyFatoorah Gateway"
+    ],
     "description": "Custom developed luxury e-commerce theme with MyFatoorah gateway, multilingual, multi-currency, and bespoke measurement selector.",
     "url": "https://alhasnaasignature.com/"
   },
@@ -232,10 +525,21 @@
     "name": "Experienced Office Furniture",
     "domain": "Furniture & E-Commerce",
     "platform": "WordPress",
-    "category": ["wordpress", "ecom", "api"],
+    "category": [
+      "wordpress",
+      "ecom",
+      "api"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "eWay Gateway", "Cloudflare"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "eWay Gateway",
+      "Cloudflare"
+    ],
     "description": "Custom developed theme and e-commerce with eWay gateway. Integrated with Cloudways and Cloudflare.",
     "url": "https://experiencedofficefurniture.com.au/"
   },
@@ -244,10 +548,19 @@
     "name": "HSE Toolbox",
     "domain": "Safety Community & Forum",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Canada",
     "location": "Canada",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "bbPress", "Cloudways"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "bbPress",
+      "Cloudways"
+    ],
     "description": "Custom developed health and safety theme with integrated community forum on Cloudways infrastructure.",
     "url": "https://hsetoolbox.com/"
   },
@@ -256,10 +569,17 @@
     "name": "Accreditas",
     "domain": "Corporate Consulting",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Canada",
     "location": "Canada",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Customized corporate theme built for international compliance and certification auditing.",
     "url": "https://accreditas.com/"
   },
@@ -268,10 +588,17 @@
     "name": "Inspiresteel",
     "domain": "Industrial Fabrication",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Qatar",
     "location": "Doha",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Customized responsive showcase for precision architectural steel and metal fabrication.",
     "url": "https://inspiresteel.co/"
   },
@@ -280,10 +607,17 @@
     "name": "O2B Early Education",
     "domain": "Education & Childcare",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed theme optimized for prospective parent inquiries and child enrollment workflows.",
     "url": "https://o2bearlyeducation.com/"
   },
@@ -292,10 +626,18 @@
     "name": "Xureal",
     "domain": "Entertainment & Digital",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "CSS Animations"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "CSS Animations"
+    ],
     "description": "Custom developed theme featuring interactive scroll animations and digital agency showcase.",
     "url": "http://xureal-staging.elevuxdev.com/"
   },
@@ -304,10 +646,17 @@
     "name": "SFAI Qatar",
     "domain": "Audit & Financial Services",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Qatar",
     "location": "Doha",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed corporate theme for global accounting, tax advisory, and business audit network.",
     "url": "https://sfaiqatar.com/"
   },
@@ -316,10 +665,16 @@
     "name": "Biz Clips",
     "domain": "Digital Branding & Media",
     "platform": "Web Design",
-    "category": ["html"],
+    "category": [
+      "html"
+    ],
     "country": "USA",
     "location": "Global",
-    "tech": ["Illustrator", "HTML5", "CSS3"],
+    "tech": [
+      "Illustrator",
+      "HTML5",
+      "CSS3"
+    ],
     "description": "Custom developed logo, branding guidelines, and digital asset library.",
     "url": "https://bizclips.app/"
   },
@@ -328,10 +683,18 @@
     "name": "The Able Channel",
     "domain": "Healthcare Streaming",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Video Streaming"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Video Streaming"
+    ],
     "description": "Custom developed theme and interactive video sliders for patient-focused healthcare streaming network.",
     "url": "https://theablechannel.com/"
   },
@@ -340,10 +703,17 @@
     "name": "Legal OS",
     "domain": "Legal Technology",
     "platform": "Responsive Web",
-    "category": ["html"],
+    "category": [
+      "html"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["HTML5", "CSS3", "jQuery", "GSAP Animations"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "GSAP Animations"
+    ],
     "description": "Custom developed theme with high-performance interactive GSAP motion and modern UI components.",
     "url": "https://legalos.com/"
   },
@@ -352,10 +722,19 @@
     "name": "Form and Thread",
     "domain": "Apparel & E-Commerce",
     "platform": "Shopify",
-    "category": ["shopify", "ecom"],
+    "category": [
+      "shopify",
+      "ecom"
+    ],
     "country": "UK",
     "location": "London",
-    "tech": ["Liquid", "HTML5", "CSS3", "jQuery", "Shopify"],
+    "tech": [
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Shopify"
+    ],
     "description": "Customized Shopify store tailored for London-based sustainable luxury menswear brand.",
     "url": "https://formandthread.com/"
   },
@@ -364,10 +743,19 @@
     "name": "PMZ Marketing",
     "domain": "Business Strategy",
     "platform": "PlatformOS",
-    "category": ["html", "api"],
+    "category": [
+      "html",
+      "api"
+    ],
     "country": "Australia",
     "location": "Sydney",
-    "tech": ["HTML5", "CSS3", "jQuery", "Liquid", "PlatformOS"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Liquid",
+      "PlatformOS"
+    ],
     "description": "Custom developed responsive theme built on PlatformOS enterprise application platform.",
     "url": "https://www.pmzmarketing.com.au/"
   },
@@ -376,10 +764,17 @@
     "name": "Creason Enterprises",
     "domain": "Civil Engineering & Construction",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "California",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed responsive corporate portal for commercial grading and underground construction.",
     "url": "https://www.creasonenterprises.com/"
   },
@@ -388,10 +783,18 @@
     "name": "Roots of Connection",
     "domain": "Travel & Experiential Events",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "California",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Event Calendar"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Event Calendar"
+    ],
     "description": "Custom developed theme with calendar-based event bookings and custom filterable image gallery.",
     "url": "https://create-roc.com/"
   },
@@ -400,10 +803,17 @@
     "name": "Merton Living",
     "domain": "Senior Living & Community",
     "platform": "Duda",
-    "category": ["duda"],
+    "category": [
+      "duda"
+    ],
     "country": "Australia",
     "location": "NSW",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Customized Duda theme providing accessibility-friendly layouts for aged care and retirement living.",
     "url": "https://www.mertonliving.org.au/"
   },
@@ -412,10 +822,18 @@
     "name": "Nargis Dutt Memorial Foundation",
     "domain": "Healthcare Non-Profit",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "New York",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Donation Integration"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Donation Integration"
+    ],
     "description": "Customized theme built for international medical charity foundation providing cancer treatment funding.",
     "url": "https://ndmfny.org/"
   },
@@ -424,10 +842,19 @@
     "name": "Free Me Company",
     "domain": "Healthcare & Wellness",
     "platform": "WordPress",
-    "category": ["wordpress", "api"],
+    "category": [
+      "wordpress",
+      "api"
+    ],
     "country": "UAE",
     "location": "Dubai",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Mailchimp API"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Mailchimp API"
+    ],
     "description": "Customized theme integrated with Mailchimp automation for wellness therapy clinic.",
     "url": "https://freemecompany.com/"
   },
@@ -436,10 +863,17 @@
     "name": "Eventeam",
     "domain": "Entertainment & Production",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Qatar",
     "location": "Doha",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed responsive theme for large-scale corporate event planning and production.",
     "url": "https://eventeam.qa/"
   },
@@ -448,10 +882,17 @@
     "name": "Figtree Motel",
     "domain": "Hospitality & Accommodation",
     "platform": "Duda",
-    "category": ["duda"],
+    "category": [
+      "duda"
+    ],
     "country": "Australia",
     "location": "NSW",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Custom developed responsive hotel site with room category listings and direct booking buttons.",
     "url": "https://www.figtreemotel.com.au/"
   },
@@ -460,10 +901,17 @@
     "name": "My Journey to Green",
     "domain": "Blog & Environmental Living",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "International",
     "location": "Global",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Customized clean typography theme focused on eco-friendly lifestyle reading experience.",
     "url": "https://myjourneytogreen.com/"
   },
@@ -472,10 +920,17 @@
     "name": "Wamberal Physiotherapy",
     "domain": "Healthcare & Physiotherapy",
     "platform": "Duda",
-    "category": ["duda"],
+    "category": [
+      "duda"
+    ],
     "country": "Australia",
     "location": "NSW",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Custom developed clinical healthcare website featuring allied health team profiles and appointment inquiries.",
     "url": "https://www.wamberalphysiotherapy.com.au/"
   },
@@ -484,10 +939,17 @@
     "name": "Namaha",
     "domain": "Charity & Philanthropy",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "New York",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Customized responsive theme for non-profit humanitarian aid foundation.",
     "url": "https://namaha.org/"
   },
@@ -496,10 +958,18 @@
     "name": "Cheapest Work Boots",
     "domain": "Apparel & E-Commerce",
     "platform": "Duda",
-    "category": ["duda", "ecom"],
+    "category": [
+      "duda",
+      "ecom"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Customized high-volume e-commerce catalog for industrial and trade safety footwear.",
     "url": "https://www.cheapestworkboots.com.au/"
   },
@@ -508,10 +978,20 @@
     "name": "2A Legal",
     "domain": "Legal & E-Commerce",
     "platform": "WordPress",
-    "category": ["wordpress", "ecom", "api"],
+    "category": [
+      "wordpress",
+      "ecom",
+      "api"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Stripe API"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Stripe API"
+    ],
     "description": "Custom developed theme with customized paid membership system and Stripe recurring payment gateway.",
     "url": "https://2a-legal.com/"
   },
@@ -520,10 +1000,19 @@
     "name": "All Threads",
     "domain": "Craft & E-Commerce",
     "platform": "Shopify",
-    "category": ["shopify", "ecom"],
+    "category": [
+      "shopify",
+      "ecom"
+    ],
     "country": "Australia",
     "location": "Brisbane",
-    "tech": ["Liquid", "HTML5", "CSS3", "jQuery", "Shopify"],
+    "tech": [
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Shopify"
+    ],
     "description": "Customized Shopify store for specialty needlecraft, embroidery threads, and textile supplies.",
     "url": "https://www.allthreads.com.au/"
   },
@@ -532,10 +1021,18 @@
     "name": "David Green",
     "domain": "Fine Art Printing & E-Commerce",
     "platform": "Duda",
-    "category": ["duda", "ecom"],
+    "category": [
+      "duda",
+      "ecom"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Customized e-commerce storefront for fine art photographic prints and framing services.",
     "url": "https://www.davidgreen.com.au/"
   },
@@ -544,10 +1041,18 @@
     "name": "Sidebar",
     "domain": "Logistics & Delivery Tech",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "GSAP Animations"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "GSAP Animations"
+    ],
     "description": "Custom developed theme and interactive GSAP animations built for last-mile logistics dispatch.",
     "url": "https://gosidebar.com/"
   },
@@ -556,10 +1061,17 @@
     "name": "Derive Systems",
     "domain": "Automotive & Fleet Software",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed enterprise corporate theme for vehicle fleet telemetry and performance calibration.",
     "url": "https://www.derivesystems.com/"
   },
@@ -568,10 +1080,17 @@
     "name": "Enlightened Design Studio",
     "domain": "Architectural Design Studio",
     "platform": "Duda",
-    "category": ["duda"],
+    "category": [
+      "duda"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Customized visual portfolio theme for architectural lighting designers and spatial consultants.",
     "url": "https://www.enlighteneddesignstudio.com.au/"
   },
@@ -580,10 +1099,17 @@
     "name": "Entertainment Ideas",
     "domain": "Live Entertainment Agency",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "UK",
     "location": "Coleraine",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed theme for corporate entertainment booking agency with categorized performer rosters.",
     "url": "https://entertainmentideas.com/"
   },
@@ -592,10 +1118,17 @@
     "name": "North West 200",
     "domain": "Motorsport & Major Events",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "UK",
     "location": "Coleraine",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed high-traffic event portal for Ireland's premier international road racing competition.",
     "url": "https://www.northwest200.org/"
   },
@@ -604,10 +1137,18 @@
     "name": "Eugenius",
     "domain": "Business Intelligence & Tech",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "CSS Animations"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "CSS Animations"
+    ],
     "description": "Custom developed theme and interactive animations for enterprise software and business analytics.",
     "url": "https://www.eugenius.com/"
   },
@@ -616,10 +1157,17 @@
     "name": "Gender Matters",
     "domain": "Education & Advocacy",
     "platform": "Duda",
-    "category": ["duda"],
+    "category": [
+      "duda"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["HTML5", "CSS3", "jQuery", "Duda"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Duda"
+    ],
     "description": "Customized resource and research publication portal built on Duda.",
     "url": "https://www.gendermatters.com.au/"
   },
@@ -628,10 +1176,17 @@
     "name": "ISCCO",
     "domain": "Industrial Engineering",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "UAE",
     "location": "Abu Dhabi",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed corporate portal for oilfield, industrial piping, and mechanical equipment supply.",
     "url": "https://iscco.ae/"
   },
@@ -640,10 +1195,17 @@
     "name": "Karma Sweden",
     "domain": "Travel & Wellness Retreats",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Sweden",
     "location": "Stockholm",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed travel showcase and wellness booking portal.",
     "url": "https://karmasweden.com/"
   },
@@ -652,10 +1214,17 @@
     "name": "LabXP",
     "domain": "Printing & Diagnostic Tech",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "International",
     "location": "Global",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed theme for digital photo lab software and commercial printing workflows.",
     "url": "https://labxp.com/"
   },
@@ -664,10 +1233,17 @@
     "name": "Lacroix Davis",
     "domain": "Forensic Engineering",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "California",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed corporate theme for structural forensic engineering and expert witness services.",
     "url": "https://www.lacroixdavis.com/"
   },
@@ -676,10 +1252,17 @@
     "name": "LTC Healthcare",
     "domain": "Medical & Healthcare",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "UK",
     "location": "North Yorkshire",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed corporate B2B theme for ISO-certified medical device supply and distribution.",
     "url": "https://ltchealthcare.co.uk/"
   },
@@ -688,10 +1271,17 @@
     "name": "The Melbourne Spinal & Sports Medicine",
     "domain": "Healthcare & Sports Medicine",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Australia",
     "location": "Melbourne",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Customized clinical theme for multidisciplinary sports medicine, osteopathy, and physiotherapy care.",
     "url": "https://melbournespinalsportsmedicine.com.au/"
   },
@@ -700,10 +1290,19 @@
     "name": "Outland Denim",
     "domain": "Fashion & Sustainable E-Commerce",
     "platform": "Shopify",
-    "category": ["shopify", "ecom"],
+    "category": [
+      "shopify",
+      "ecom"
+    ],
     "country": "Australia",
     "location": "Queensland",
-    "tech": ["Liquid", "HTML5", "CSS3", "jQuery", "Shopify"],
+    "tech": [
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Shopify"
+    ],
     "description": "Customized high-volume Shopify theme for internationally recognized B-Corp certified ethical denim brand.",
     "url": "https://www.outlanddenim.com.au/"
   },
@@ -712,10 +1311,17 @@
     "name": "Pradere Office",
     "domain": "Commercial Furniture & Interior",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "Miami, FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed theme featuring architectural office furniture catalogs and space planning solutions.",
     "url": "https://pradereoffice.com/"
   },
@@ -724,10 +1330,19 @@
     "name": "QI Card",
     "domain": "Smart Business Card & E-Commerce",
     "platform": "WordPress",
-    "category": ["wordpress", "ecom"],
+    "category": [
+      "wordpress",
+      "ecom"
+    ],
     "country": "International",
     "location": "Global",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Custom Product Customizer"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Custom Product Customizer"
+    ],
     "description": "Custom developed theme, custom product builder for contactless cards, and proprietary brand logo.",
     "url": "https://www.theqicard.com/"
   },
@@ -736,10 +1351,19 @@
     "name": "Quill Safety",
     "domain": "Industrial PPE & E-Commerce",
     "platform": "Shopify",
-    "category": ["shopify", "ecom"],
+    "category": [
+      "shopify",
+      "ecom"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["Liquid", "HTML5", "CSS3", "jQuery", "Shopify"],
+    "tech": [
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Shopify"
+    ],
     "description": "Customized Shopify store tailored for compliant industrial safety apparel, footwear, and PPE.",
     "url": "https://www.quillsafety.com.au/"
   },
@@ -748,10 +1372,18 @@
     "name": "Sacramento Patio",
     "domain": "Outdoor Living & Construction",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "California",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "WP Engine"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "WP Engine"
+    ],
     "description": "Custom developed theme integrated with WP Engine server for custom patio enclosures and sunrooms.",
     "url": "https://www.sacramentopatio.com/"
   },
@@ -760,10 +1392,20 @@
     "name": "Cheap Fire Extinguishers",
     "domain": "Safety & E-Commerce",
     "platform": "WordPress",
-    "category": ["wordpress", "ecom", "api"],
+    "category": [
+      "wordpress",
+      "ecom",
+      "api"
+    ],
     "country": "Australia",
     "location": "Australia",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "PayPal API"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "PayPal API"
+    ],
     "description": "Customized e-commerce theme with PayPal payment gateway for certified fire safety equipment.",
     "url": "https://cheapfireextinguishers.com.au/"
   },
@@ -772,10 +1414,18 @@
     "name": "South Bay Circuits",
     "domain": "Electronics & PCB Manufacturing",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "California",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "WP Engine"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "WP Engine"
+    ],
     "description": "Customized industrial theme on WP Engine for printed circuit board fabrication and assembly.",
     "url": "https://sbcinc.com/"
   },
@@ -784,10 +1434,17 @@
     "name": "Shades House",
     "domain": "Smart Home Automation",
     "platform": "Responsive Web",
-    "category": ["html"],
+    "category": [
+      "html"
+    ],
     "country": "Saudi Arabia",
     "location": "Riyadh",
-    "tech": ["HTML5", "CSS3", "jQuery", "Foundation Framework"],
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Foundation Framework"
+    ],
     "description": "Custom developed responsive theme for motorized blinds, architectural shades, and smart home automation.",
     "url": "https://shadeshouse.com/"
   },
@@ -796,10 +1453,20 @@
     "name": "Soroptimist Sacramento",
     "domain": "Non-Profit & Philanthropy",
     "platform": "WordPress",
-    "category": ["wordpress", "api"],
+    "category": [
+      "wordpress",
+      "api"
+    ],
     "country": "USA",
     "location": "California",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery", "Membership Gateway", "WP Engine"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery",
+      "Membership Gateway",
+      "WP Engine"
+    ],
     "description": "Customized theme with paid member registration and recurring membership functionality on WP Engine.",
     "url": "https://soroptimistsacramento.com/"
   },
@@ -808,10 +1475,17 @@
     "name": "Terrasmart",
     "domain": "Solar & Clean Energy",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "USA",
     "location": "FL",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Customized corporate theme showcasing utility-scale solar racking and foundation engineering.",
     "url": "https://www.terrasmart.com/"
   },
@@ -820,10 +1494,17 @@
     "name": "Nooba",
     "domain": "Fashion & Model Management",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Spain",
     "location": "Madrid",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed talent portfolio theme for international fashion and commercial model casting.",
     "url": "https://nooba.es/"
   },
@@ -832,10 +1513,17 @@
     "name": "Hagamos el Indio",
     "domain": "Children's Art & Decor",
     "platform": "WordPress",
-    "category": ["wordpress"],
+    "category": [
+      "wordpress"
+    ],
     "country": "Spain",
     "location": "Barcelona",
-    "tech": ["PHP", "HTML5", "CSS3", "jQuery"],
+    "tech": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "jQuery"
+    ],
     "description": "Custom developed portfolio theme for artistic illustration, custom children's bedding, and decor.",
     "url": "https://hagamoselindio.com/"
   }

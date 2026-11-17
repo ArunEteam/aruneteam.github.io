@@ -76,12 +76,19 @@
         (p.platform && p.platform.toLowerCase() === 'shopify')
     },
     {
+      id: 'webflow',
+      label: 'Webflow',
+      matcher: (p) =>
+        (p.category && p.category.includes('webflow')) ||
+        (p.platform && p.platform.toLowerCase() === 'webflow')
+    },
+    {
       id: 'api',
       label: 'API & Integrations',
       matcher: (p) =>
         (p.category && p.category.includes('api')) ||
-        (p.tech && p.tech.some((t) => /api|salesforce|cURL|webhook/i.test(t))) ||
-        (p.description && /api|integration|intellikid/i.test(p.description))
+        (p.tech && p.tech.some((t) => /api|salesforce|cURL|webhook|brevo|calendly/i.test(t))) ||
+        (p.description && /api|integration|intellikid|brevo|calendly/i.test(p.description))
     }
   ];
 

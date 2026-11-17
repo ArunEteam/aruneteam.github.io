@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,11 +9,14 @@
   <meta name="description" content="" id="metaDesc" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/animations.css" />
   <link rel="stylesheet" href="../assets/css/case-study.css" />
 </head>
+
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <div class="cursor" id="cursor" aria-hidden="true"></div>
@@ -29,7 +33,7 @@
         <ul class="nav__list" role="list">
           <li><a href="../index.html#about" class="nav__link">About</a></li>
           <li><a href="../index.html#skills" class="nav__link">Skills</a></li>
-          <li><a href="../index.html#work" class="nav__link">Work</a></li>
+          <li><a href="../index.html#work" class="nav__link">Featured Work</a></li>
           <li><a href="../index.html#experience" class="nav__link">Experience</a></li>
           <li><a href="../index.html#contact" class="nav__link">Contact</a></li>
         </ul>
@@ -40,12 +44,21 @@
       </button>
     </div>
     <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-      <nav><ul class="mobile-menu__list" role="list">
-        <li><a href="../index.html#about"      class="mobile-menu__link">About</a></li>
-        <li><a href="../index.html#skills"     class="mobile-menu__link">Skills</a></li>
-        <li><a href="../index.html#work"       class="mobile-menu__link">Work</a></li>
-        <li><a href="../index.html#contact"    class="mobile-menu__link">Contact</a></li>
-      </ul></nav>
+      <button class="mobile-menu__close" id="mobileMenuClose" aria-label="Close navigation menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <nav>
+        <ul class="mobile-menu__list" role="list">
+          <li><a href="../index.html#about" class="mobile-menu__link">About</a></li>
+          <li><a href="../index.html#skills" class="mobile-menu__link">Skills</a></li>
+          <li><a href="../index.html#work" class="mobile-menu__link">Featured Work</a></li>
+          <li><a href="../index.html#contact" class="mobile-menu__link">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -60,7 +73,8 @@
     <div class="case-error" id="caseError" hidden aria-live="assertive">
       <div class="container" style="padding-top:10rem;text-align:center">
         <h1 style="margin-bottom:1rem">Project Not Found</h1>
-        <p style="color:var(--clr-text-muted);margin-bottom:2rem">The project you're looking for doesn't exist or the URL is wrong.</p>
+        <p style="color:var(--clr-text-muted);margin-bottom:2rem">The project you're looking for doesn't exist or the
+          URL is wrong.</p>
         <a href="../index.html#work" class="btn btn--primary">← Back to Work</a>
       </div>
     </div>
@@ -73,9 +87,13 @@
         <div class="container">
           <nav class="case-hero__breadcrumb" aria-label="Breadcrumb">
             <a href="../index.html">Home</a>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
             <a href="../index.html#work">Work</a>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
             <span id="breadcrumbCurrent" aria-current="page"></span>
           </nav>
           <div class="case-hero__tags" id="caseTags" aria-label="Project tags"></div>
@@ -134,19 +152,27 @@
       <nav class="case-nav" aria-label="Case study navigation" id="caseNav">
         <div class="container case-nav__inner">
           <a href="#" class="case-nav__link" id="casePrev" aria-label="Previous case study">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <line x1="19" y1="12" x2="5" y2="12" />
+              <polyline points="12 19 5 12 12 5" />
+            </svg>
             <span>
               <span class="case-nav__direction">Previous</span>
               <span class="case-nav__title" id="casePrevTitle"></span>
             </span>
           </a>
-          <a href="../index.html#work" class="btn btn--ghost btn--sm">All Work</a>
+          <a href="../projects.html" class="btn btn--ghost btn--sm">All Work</a>
           <a href="#" class="case-nav__link" id="caseNext" aria-label="Next case study">
             <span>
               <span class="case-nav__direction">Next</span>
               <span class="case-nav__title" id="caseNextTitle"></span>
             </span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
           </a>
         </div>
       </nav>
@@ -161,7 +187,7 @@
       <nav aria-label="Footer navigation">
         <ul class="footer__nav" role="list">
           <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#work">Work</a></li>
+          <li><a href="../index.html#work">Featured Work</a></li>
           <li><a href="../index.html#contact">Contact</a></li>
         </ul>
       </nav>
@@ -169,10 +195,14 @@
   </footer>
 
   <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      aria-hidden="true">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
   </button>
 
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/case-study.js"></script>
 </body>
+
 </html>

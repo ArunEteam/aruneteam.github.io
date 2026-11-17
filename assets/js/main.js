@@ -93,6 +93,7 @@
   const toggle = document.getElementById('navToggle');
   const mobileMenu = document.getElementById('mobileMenu');
   const mobileLinks = document.querySelectorAll('.mobile-menu__link');
+  const closeBtns = document.querySelectorAll('.mobile-menu__close, #mobileMenuClose');
   if (!toggle || !mobileMenu) return;
 
   function openMenu() {
@@ -116,6 +117,7 @@
     isOpen ? closeMenu() : openMenu();
   });
 
+  closeBtns.forEach(btn => btn.addEventListener('click', closeMenu));
   mobileLinks.forEach(link => link.addEventListener('click', closeMenu));
 
   // Close on Escape
